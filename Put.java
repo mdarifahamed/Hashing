@@ -18,5 +18,20 @@ public class Put{
 
         // not exits value return (null)
         System.out.println(hm.get("Indonesia"));
+
+        // ContainsKey - O(1)
+        System.out.println(hm.containsKey("India")); // true
+        System.out.println(hm.containsKey("Indonesia")); // false
+
+        // Remove 
+        System.out.println(hm.remove("China"));
+        System.out.println(hm);
+
+        // size
+        System.out.println(hm.size());
+
+        // Is Empty
+        hm.clear();
+        System.out.println(hm.isEmpty());
     }
 }
