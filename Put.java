@@ -11,5 +11,12 @@ public class Put{
         hm.put("US", 50);
 
         System.out.println(hm);
+
+        // Get - O(1)
+        int population = hm.get("India");
+        System.out.println(population);
+
+        // not exits value return (null)
+        System.out.println(hm.get("Indonesia"));
     }
 }
