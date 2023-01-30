@@ -4,13 +4,13 @@ public class LinkedHash {
     public static void main(String[] args) {
         //LinkedHash map
         LinkedHashMap<String, Integer> lhm = new LinkedHashMap<>();
-        lhm.put("india", 100);
+        lhm.put("India", 100);
         lhm.put("China", 150);
         lhm.put("US", 50);
          
         // hashmap
         HashMap<String, Integer> hm = new HashMap<>();
-        hm.put("india", 100);
+        hm.put("India", 100);
         hm.put("China", 150);
         hm.put("US", 50);
 
