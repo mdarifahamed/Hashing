@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Majorityelement {
+public class Majorityelement {        
     public static void main(String[] args) {
         int arr[] = {1, 3, 2, 5,1, 3, 1, 5, 1};
         HashMap<Integer, Integer> map = new HashMap<>();
