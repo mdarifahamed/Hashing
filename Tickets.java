@@ -24,9 +24,9 @@ public class Tickets {
         tickets.put("Delhi", "Goa");
 
         String start = getStart(tickets);
-        System.out.println(start);
+        System.out.print(start);
         for(String key : tickets.keySet()) {
-            System.out.print("-> " + tickets.get(start));
+            System.out.print(" -> " + tickets.get(start));
             start = tickets.get(start);
         }
 
